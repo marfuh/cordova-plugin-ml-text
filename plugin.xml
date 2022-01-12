@@ -35,8 +35,8 @@
     </config-file>
    
     <source-file src="src/android/Mltext.java" target-dir="src/com/neutrinos/mltextplugin/" />
-    <framework src="com.google.android.gms:play-services-mlkit-text-recognition:$MLKIT_TEXT_RECOGNITION_VERSION" />
-  
+    <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+    
   </platform>
 
 
